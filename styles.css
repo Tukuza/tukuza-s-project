@@ -1,0 +1,469 @@
+/* General Styling for 3D Look with Pink and Purple Theme */
+/* Header Styling */
+.main-header {
+    background: url('header-background.jpg') no-repeat center center/cover;
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    color: white;
+}
+/* Profile Section Styling */
+.profile {
+    text-align: center;
+    padding: 15px 0; /* Reduced padding */
+}
+
+.profile-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem; /* Reduced font size */
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+    letter-spacing: 1px; /* Reduced letter-spacing for a more balanced look */
+}
+
+.profile-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem; /* Reduced font size */
+    color: #ddd;
+    margin-top: 5px;
+}
+
+.avatar {
+    width: 150px; /* Increased width */
+    height: 150px; /* Increased height to match the width */
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 15px rgba(82, 2, 82, 0.5);
+    margin-top: 15px;
+}
+
+
+
+/* Navigation Bar Styling */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 30px 0 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color: white;
+    padding: 12px 25px;
+    transition: background 0.3s ease, color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+nav ul li a i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+nav ul li a:hover {
+    background-color: #ad086e; /* Hover background color */
+    color: #fff;
+}
+
+/* Remove glow effect */
+h1, h2, h3 {
+    text-shadow: none;
+}
+
+/* Button and Link Styling */
+button, a {
+    background-color: #5c045c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+}
+
+button:hover, a:hover {
+    background-color: #fd04f1;
+    box-shadow: 0 0 10px rgba(82, 2, 82, 0.3);
+}
+
+
+/* Welcome Section */
+#welcome {
+    background: linear-gradient(to right, #240222, #5c045c);
+    padding: 60px 20px;
+    margin-top: 80px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Ensures text is centered within the container */
+}
+
+/* Welcome Title Styling */
+#welcome h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem; /* Match the size from Portfolio */
+    font-weight: bold;
+    color: #fff; /* Ensure white color for contrast */
+    text-shadow: none; /* Remove any glow effect */
+    text-align: center; /* Centering */
+    margin-bottom: 20px; /* Adds space between the heading and button */
+}
+/* welcome Description */
+#welcome p {
+    font-size: 1.2rem; /* Slightly bigger text */
+    text-align: center; /* Centering */
+    margin-top: 10px;
+    color: #f5efef; /* Subtle contrast */
+}
+/* Button */
+.cta-btn {
+    background-color: #5c045c;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+}
+
+.cta-btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.cta-btn:hover {
+    background-color: #f22194;
+}
+
+
+
+
+
+/* Portfolio Section */
+#portfolio {
+    padding: 60px 20px;
+    background: #f8f6f8;
+}
+
+/* Portfolio Title Styling */
+#portfolio h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem; /* Increased size */
+    font-weight: bold;
+    color: #333; /* Ensure good contrast */
+    text-shadow: none; /* Remove any glow effect */
+    text-align: center; /* Centering */
+}
+
+/* Portfolio Description */
+#portfolio p {
+    font-size: 1.2rem; /* Slightly bigger text */
+    text-align: center; /* Centering */
+    margin-top: 10px;
+    color: #555; /* Subtle contrast */
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    background: #f5adeb;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center text */
+}
+
+/* Image Styling */
+.project-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Project Title */
+.project-card h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #000000; /* Clear and readable text */
+    text-shadow: none; /* Remove any glow */
+}
+
+/* Project Links */
+.project-link {
+    text-decoration: none;
+    color: #000000; /* A deep purple for contrast */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+.project-link:hover {
+    color: #f221ac; /* Slight color change on hover */
+}
+
+
+/* Footer */
+footer {
+    padding: 20px;
+    background: #5c045c;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Services Section */
+#services {
+    padding: 60px 20px;
+    background: #f8f6f8;
+    text-align: center;
+}
+
+#services h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    color: #333; /* Darker text for better contrast */
+    text-shadow: none; /* Remove glow */
+}
+
+#services p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 20px;
+}
+
+/* Slideshow Styling */
+.slideshow-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.slide {
+    background: #f5adeb;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.slide img {
+    width: 100%;
+    height: 200px; /* Increase height for a bigger display */
+    object-fit: cover; /* Ensures the image fills the space properly */
+    border-radius: 8px;
+}
+/* Service Title */
+.slide .text {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    color: #333; /* Darker text */
+    margin-top: 10px;
+    text-shadow: none; /* Remove glow */
+}
+
+/* Service Links */
+#services .slide a {
+    color: #5c045c; /* Darker purple */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#services .slide a:hover {
+    color: #f221b3;
+}
+
+.about-section {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 1.5rem;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    padding: 60px 20px;
+    background: #b35dbb;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about h2, #about h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+#about h3 {
+    font-size: 1.7rem;
+    color: #000000;
+}
+
+#about ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+#about li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+/* Fun Fact Emojis for Vibes */
+#about li::before {
+    content: "✨ ";
+    font-size: 1.2rem;
+    color: #050505;
+}
+#education {
+    padding: 60px 20px;
+    background: #f8f6f8; /* Light, clean background */
+    text-align: center;
+}
+
+#education h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    color: #161515; /* Dark text for contrast */
+    text-shadow: none; /* Ensure no glow effect */
+}
+
+#education p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #161515;;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+#education ul {
+    list-style: none;
+    padding: 0;
+}
+
+#education ul li {
+    font-size: 1.1rem;
+    padding: 10px;
+    background: #f5adeb; /* Soft pink background */
+    margin: 10px auto;
+    border-radius: 8px;
+    max-width: 600px;
+    color: #333;
+}
+
+#education ul li:hover {
+    background: #e093d3; /* Slightly darker pink on hover */
+    transition: 0.3s ease-in-out;
+}
+
+
+/* Contact Section */
+#contact {
+    padding: 60px 20px;
+    background-color: #f8f6f8;
+    color: #333;
+    text-align: center;
+}
+
+#contact h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    color: #333; /* Dark text for contrast */
+    text-shadow: none; /* No glow effect */
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(82, 2, 82, 0.1);
+}
+
+#contact form label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #5c045c;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#contact form textarea {
+    height: 150px;
+}
+
+#contact form button {
+    background-color: #5c045c;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(82, 2, 82, 0.1);
+    transition: background 0.3s ease;
+    margin-top: 20px;
+}
+
+#contact form button:hover {
+    background-color: #fd04f1;
+    box-shadow: 0 0 10px rgba(82, 2, 82, 0.3);
+}

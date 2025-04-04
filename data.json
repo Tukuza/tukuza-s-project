@@ -1,0 +1,35 @@
+{
+    "profileImage": "avatar.png",
+    "about": {
+        "name": "Tukuza Zulu",
+        "bio": "I am a passionate software engineering student at PLP Academy, dedicated to learning and applying technology to create innovative solutions."
+    },
+    "education": [
+        {
+            "institution": "PLP Academy",
+            "degree": "Software Engineering Student",
+            "details": "Gaining hands-on experience in programming, web development, and AI-driven applications."
+        }
+    ],
+    "services": [
+        {
+            "name": "Web Development",
+            "image": "service1.jpg",
+            "description": "Building responsive and interactive websites tailored to your needs."
+        },
+        {
+            "name": "Software Solutions",
+            "image": "service2.jpg",
+            "description": "Providing software solutions to help businesses optimize their operations."
+        },
+        {
+            "name": "AI-Powered Applications",
+            "image": "service3.jpg",
+            "description": "Creating intelligent applications using AI technology to solve real-world problems."
+        }
+    ],
+    "contact": {
+        "email": "ztukuza301@example.com",
+        "phone": "+260 999 999 999"
+    }
+}
